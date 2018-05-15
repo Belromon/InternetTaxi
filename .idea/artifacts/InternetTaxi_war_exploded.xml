@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="InternetTaxi:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/InternetTaxi_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="InternetTaxi/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="InternetTaxi" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

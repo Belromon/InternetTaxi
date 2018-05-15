@@ -1,0 +1,95 @@
+function accept_order(id) {
+    $.ajax({
+        url: 'FrontController?command=ACCEPT_ORDER&id='+id,
+        success: function () {
+            $("#" + id).find(".statusTd").text("ACCEPTED");
+        },
+        error: function () {
+            alert('error');
+        }
+    });
+}
+
+function decline_order(id) {
+    $.ajax({
+        url: 'FrontController?command=DECLINE_ORDER&id='+id,
+        success: function () {
+            $("#" + id).find(".statusTd").text("DECLINED");
+        },
+        error: function () {
+            alert('error');
+        }
+    });
+}
+
+function finish_order(id) {
+    $.ajax({
+        url: 'FrontController?command=FINISH_ORDER&id='+id,
+        success: function () {
+            $("#" + id).find(".statusTd").text("FINISHED");
+        },
+        error: function () {
+            alert('error');
+        }
+    });
+}
+
+function driver_ban(id) {
+    $.ajax({
+        url: 'FrontController?command=BLOCK_DRIVER&id='+id,
+        success: function () {
+            $("#" + id).find(".isBannedTd").text("true");
+        },
+        error: function () {
+            alert('error');
+        }
+    });
+}
+
+function driver_unban(id) {
+    $.ajax({
+        url: 'FrontController?command=UNBLOCK_DRIVER&id='+id,
+        success: function () {
+            $("#" + id).find(".isBannedTd").text("false");
+        },
+        error: function () {
+            alert('error');
+        }
+    });
+}
+
+function driver_confirm(id) {
+    $.ajax({
+        url: 'FrontController?command=CONFIRM_DRIVER&id='+id,
+        success: function () {
+            $("#" + id).find(".isConfirmedTd").text("true");
+        },
+        error: function () {
+            alert('error');
+        }
+    });
+}
+
+function user_ban(id) {
+    $.ajax({
+        url: 'FrontController?command=BLOCK_USER&id='+id,
+        success: function () {
+            $("#" + id).find(".isBannedTd").text("true");
+        },
+        error: function () {
+            alert('error');
+        }
+    });
+}
+
+function user_unban(id) {
+    $.ajax({
+        url: 'FrontController?command=UNBLOCK_USER&id='+id,
+        success: function () {
+            $("#" + id).find(".isBannedTd").text("false");
+        },
+        error: function () {
+            alert('error');
+        }
+    });
+}

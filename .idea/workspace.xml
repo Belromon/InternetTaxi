@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="InternetTaxi:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16a79a0e-8bbc-461c-a130-b0dbaa8f7017" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Bloch/src/Card.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Hillel/src/main/webapp/WEB-INF/spring/spring-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/resourceBundles.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/CommandName.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/CommandProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/ControllerCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/LocalizationCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/AccountDeleteCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/AccountEditCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/AdminRegistrationCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/AuthenticationCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/CheckActiveCustomerOrderCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/DriverRegistrationCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/LogOutCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/RegistrationCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/AdminDeletingCommnad.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/CustomerBlockingCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/CustomerUnblockingCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/DriverBlockingCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/DriverConfirmingCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/DriverUnblockingCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/ShowAllAdminsCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/ShowAllDriversCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/ShowAllOrdersCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/ShowAllUsersCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/AcceptingOrderCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/CreateOrderCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/DeclineOrderCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/FindDriverCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/FinishOrderCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/ProvideOrdersToDriverCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/SetOnRouteOrderCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/AbstractDAO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/DAO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/DAOFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/exception/CloseConnectionException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/exception/ConnectionPoolException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/exception/ConnectionPoolInitializationException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/exception/DAOException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/AdministratorDAOImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/DriverDAOImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/OrderDAOImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/pool/ConnectionPool.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/pool/ConnectionPoolImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/pool/JDBCProperty.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/dao/pool/MySQLConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/entity/Administrator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/entity/Customer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/entity/Driver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/entity/Order.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/entity/OrderStatus.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/entity/Point.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/service/AdministratorService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/service/Autentificator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/service/DriverService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/service/HashGenerator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/service/LocationHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/service/OrderService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/service/ServiceFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/service/UserService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/service/Validator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/tc/web/service/exception/ServiceException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/local.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/local_en.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/local_ru.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/about.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/administrator/admins.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/administrator/drivers.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/administrator/orders.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/administrator/users.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/contacts.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/driverOrders.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/driverSignup.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/edit.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/error/error.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/language.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/mainpage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/partialHeader.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/services.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/adipoli.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/auth-style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/camera.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/form.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/ie.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/owl.carousel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/skeleton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/superfish.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/touchTouch.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/arrowws.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/big1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/big2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/big3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/big4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/big5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/big6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/big7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/big8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/big9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/camera-loader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/capt_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/icon1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/icon2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/icon3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/magnifier.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/menu_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page1_img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page1_img2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page1_img3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page2_img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page3_img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page3_img2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page3_img3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page3_img4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page3_img5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page3_img6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page3_img7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page3_img8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page3_img9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page4_img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page4_img2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page4_img3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page4_img4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page4_img5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page4_img6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page4_img7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page4_img8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/page4_img9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/preloader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/prevnext.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/quotes.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/slide.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/slide1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/slide2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/spacer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/tax_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/totop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/TMForm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/camera.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/html5shiv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-migrate-1.2.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.adipoli.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.easing.1.3.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.equalheights.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.mobile.customized.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.mobilemenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.ui.totop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/owl.carousel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/superfish.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/tableControl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/touchTouch.jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/.idea/artifacts/TestForTax_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/TestForTax.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/src/main/resources/jdbc.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/src/main/resources/local.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/src/main/resources/local_en.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/src/main/resources/local_ru.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/css/adipoli.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/css/camera.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/css/form.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/css/grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/css/ie.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/css/owl.carousel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/css/reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/css/skeleton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/css/superfish.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/css/touchTouch.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/arrowws.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/big1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/big2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/big3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/big4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/big5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/big6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/big7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/big8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/big9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/camera-loader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/capt_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/icon1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/icon2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/icon3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/magnifier.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/menu_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page1_img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page1_img2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page1_img3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page2_img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page3_img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page3_img2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page3_img3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page3_img4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page3_img5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page3_img6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page3_img7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page3_img8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page3_img9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page4_img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page4_img2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page4_img3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page4_img4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page4_img5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page4_img6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page4_img7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page4_img8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/page4_img9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/preloader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/prevnext.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/quotes.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/slide.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/slide1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/slide2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/spacer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/tax_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/images/totop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/PIE.htc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/PIE.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/TMForm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/camera.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/html5shiv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/jquery-migrate-1.2.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/jquery.adipoli.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/jquery.easing.1.3.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/jquery.equalheights.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/jquery.mobile.customized.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/jquery.mobilemenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/jquery.ui.totop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/owl.carousel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/superfish.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../TestForTax/web/js/touchTouch.jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/.idea/dataSources.local.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/.idea/webContexts.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/CommandName.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/CommandProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/ControllerCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/FrontController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/impl/LocalizationCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/impl/OrderHandlingCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/impl/account/AccountDeleteCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/impl/account/AccountEditCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/impl/account/AuthenticationCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/impl/account/DriverRegistrationCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/impl/account/LogOutCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/impl/account/RegistrationCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/impl/administrator/CustomerBlockingCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/impl/administrator/ShowAllDriversCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/controller/impl/administrator/ShowAllUsersCommandImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/AbstractDAO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/DAO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/exception/CloseConnectionException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/exception/ConnectionPoolException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/exception/ConnectionPoolInitializationException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/exception/DAOException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/impl/AdministratorDAOImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/impl/CustomerDAOImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/impl/DriverDAOImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/impl/OrderDAOImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/pool/ConnectionPool.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/pool/ConnectionPoolImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/pool/JDBCProperty.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/dao/pool/MySQLConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/entity/Administrator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/entity/Car.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/entity/Customer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/entity/Driver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/entity/Order.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/entity/Point.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/entity/User.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/service/AdministratorService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/service/Autentificator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/service/CustomerService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/service/DriverService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/service/UserService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/service/Validator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/java/by/tc/web/service/exception/ServiceException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/resources/jdbc.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/resources/local.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/resources/local_en.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/src/main/resources/local_ru.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/jsp/account/account.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/jsp/account/edit.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/jsp/administrator/drivers.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/jsp/administrator/orders.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/jsp/administrator/users.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/jsp/driverSignup.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/jsp/error/error.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/jsp/header.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/jsp/language.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/jsp/login.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/jsp/mainpage.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/jsp/signup.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../testfortax2/web/WEB-INF/web.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Taxi@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Taxi@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Taxi@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Taxi: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="InternetTaxi" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="OrderDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/OrderDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+              <folding>
+                <element signature="e#2109#2110#0" expanded="true" />
+                <element signature="e#2157#2158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/AbstractDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckOrderStatusCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/CheckOrderStatusCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="27" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="82" column="70" lean-forward="false" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckActiveCustomerOrderCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/CheckActiveCustomerOrderCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrontController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/FrontController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandName.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/CommandName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="finishOrder.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/finishOrder.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/CommandProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="39" column="102" lean-forward="false" selection-start-line="39" selection-start-column="102" selection-end-line="39" selection-end-column="102" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="CSS File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cus</find>
+      <find>customer</find>
+      <find>wrapp</find>
+      <find>users</find>
+      <find>mainp</find>
+      <find>form</find>
+      <find>searchStartPoint</find>
+      <find>acc</find>
+      <find>footer</find>
+      <find>main</find>
+      <find>route</find>
+      <find>start</find>
+      <find>searchCon</find>
+      <find>getDir</find>
+      <find>GetUserServlet</find>
+      <find>driverOr</find>
+      <find>drivers</find>
+      <find>driverorder</find>
+      <find>Serialization issues</find>
+      <find>login</find>
+      <find>edit</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>drivers</replace>
+      <replace>orders</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/js/tableControl" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/administrator/orders.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/administrator/users.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/entity/Point.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/entity/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/entity/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/entity/Administrator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/entity/Driver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/service/DriverService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/DriverRegistrationCommandImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/service/LocationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/FindDriverCommand.java" />
+        <option value="$PROJECT_DIR$/web/js/app-ajax.js" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/ProvideOrdersToDriverCommand.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/mainpage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/entity/OrderStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/OnRouteOrderCommand.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/driverOrders.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/SetOnRouteOrderCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/CustomerBlockingCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/FinishOrderCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/DeclineOrderCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/CreateOrderCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/AcceptingOrderCommand.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/edit.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/administrator/drivers.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/AuthenticationCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/ShowAllAdminsCommandImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/RegistrationCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/AdminRegistrationCommandImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/service/AdministratorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/AdminDeletingCommnad.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/administrator/admins.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/AdministratorDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/CustomerDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/DriverDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/OrderDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/dao/AbstractDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/dao/DAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/CheckOrderStatusCommand.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/finishOrder.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/CommandName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/CommandProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/CheckActiveCustomerOrderCommand.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="InternetTaxi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="3" />
+    <option name="y" value="23" />
+    <option name="width" value="1375" />
+    <option name="height" value="801" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="administrator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InternetTaxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InternetTaxi" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="administrator" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/web/images" />
+      <recent name="$PROJECT_DIR$/web/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/js" />
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/web/css" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="by.tc.web.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="by.tc.web.test.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="InternetTaxi" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="BROWSER_ID" value="e5120d43-2c3f-47ef-9f26-65e539e05186" />
+      <deployment>
+        <artifact name="InternetTaxi:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_InternetTaxi" />
+        <option name="HTTP_PORT" value="8080" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58225" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="InternetTaxi:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16a79a0e-8bbc-461c-a130-b0dbaa8f7017" name="Default" comment="" />
+      <created>1521667812873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521667812873</updated>
+      <workItem from="1521667814232" duration="1936000" />
+      <workItem from="1521789607828" duration="194000" />
+      <workItem from="1522069406963" duration="3483000" />
+      <workItem from="1522177932221" duration="7351000" />
+      <workItem from="1522240119779" duration="3454000" />
+      <workItem from="1522411209243" duration="5569000" />
+      <workItem from="1522530013583" duration="20000" />
+      <workItem from="1522530048023" duration="108000" />
+      <workItem from="1522530477434" duration="7582000" />
+      <workItem from="1522593077722" duration="13437000" />
+      <workItem from="1522702634317" duration="12867000" />
+      <workItem from="1522840160843" duration="27520000" />
+      <workItem from="1523047749247" duration="3000" />
+      <workItem from="1523183234055" duration="18968000" />
+      <workItem from="1523271735124" duration="2322000" />
+      <workItem from="1523284923326" duration="38000" />
+      <workItem from="1523285738244" duration="12892000" />
+      <workItem from="1523373523812" duration="24059000" />
+      <workItem from="1523630855613" duration="65477000" />
+      <workItem from="1524064861072" duration="2615000" />
+      <workItem from="1524243559766" duration="31968000" />
+      <workItem from="1525005564965" duration="8558000" />
+      <workItem from="1525208025071" duration="1403000" />
+      <workItem from="1525251861487" duration="82483000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="334307000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946298" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840237" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3880597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32462686" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25995025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.49373883" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2074392" sideWeight="0.50626117" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946298" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840237" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3880597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32462686" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25995025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.49373883" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2074392" sideWeight="0.50626117" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/service/CustomerService.java</url>
+          <line>31</line>
+          <properties class="by.tc.web.service.CustomerService" method="delete">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/service/CustomerService.java</url>
+          <line>13</line>
+          <properties class="by.tc.web.service.CustomerService" method="save">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/CustomerDAOImpl.java</url>
+          <line>72</line>
+          <properties class="by.tc.web.dao.impl.CustomerDAOImpl" method="executeUpdateQuery">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/service/CustomerService.java</url>
+          <line>50</line>
+          <properties class="by.tc.web.service.CustomerService" method="block">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/DriverDAOImpl.java</url>
+          <line>77</line>
+          <properties class="by.tc.web.dao.impl.DriverDAOImpl" method="executeUpdateQuery">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/AbstractDAO.java</url>
+          <line>150</line>
+          <properties class="by.tc.web.dao.AbstractDAO" method="readByID">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/service/DriverService.java</url>
+          <line>107</line>
+          <properties class="by.tc.web.service.DriverService" method="getFreeDrivers">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/service/OrderService.java</url>
+          <line>45</line>
+          <properties class="by.tc.web.service.OrderService" method="readByID">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/AcceptingOrderCommand.java</url>
+          <line>19</line>
+          <properties class="by.tc.web.controller.impl.order.AcceptingOrderCommand" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/CustomerUnblockingCommand.java</url>
+          <line>17</line>
+          <properties class="by.tc.web.controller.impl.administrator.CustomerUnblockingCommand" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/DriverUnblockingCommand.java</url>
+          <line>16</line>
+          <properties class="by.tc.web.controller.impl.administrator.DriverUnblockingCommand" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/ShowAllDriversCommandImpl.java</url>
+          <line>17</line>
+          <properties class="by.tc.web.controller.impl.administrator.ShowAllDriversCommandImpl" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/SetOnRouteOrderCommand.java</url>
+          <line>18</line>
+          <properties class="by.tc.web.controller.impl.order.SetOnRouteOrderCommand" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/OrderDAOImpl.java</url>
+          <line>95</line>
+          <properties class="by.tc.web.dao.impl.OrderDAOImpl" method="parseResultSet">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/RegistrationCommand.java</url>
+          <line>16</line>
+          <properties class="by.tc.web.controller.impl.account.RegistrationCommand" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/DriverBlockingCommand.java</url>
+          <line>16</line>
+          <properties class="by.tc.web.controller.impl.administrator.DriverBlockingCommand" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/DriverConfirmingCommandImpl.java</url>
+          <line>17</line>
+          <properties class="by.tc.web.controller.impl.administrator.DriverConfirmingCommandImpl" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/ShowAllOrdersCommand.java</url>
+          <line>16</line>
+          <properties class="by.tc.web.controller.impl.administrator.ShowAllOrdersCommand" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/service/OrderService.java</url>
+          <line>56</line>
+          <properties class="by.tc.web.service.OrderService" method="getAllOrders">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/AbstractDAO.java</url>
+          <line>49</line>
+          <properties class="by.tc.web.dao.AbstractDAO" method="create">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/OrderDAOImpl.java</url>
+          <line>66</line>
+          <properties class="by.tc.web.dao.impl.OrderDAOImpl" method="executeCreateQuery">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/CreateOrderCommand.java</url>
+          <line>21</line>
+          <properties class="by.tc.web.controller.impl.order.CreateOrderCommand" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/FindDriverCommand.java</url>
+          <line>15</line>
+          <properties class="by.tc.web.controller.impl.order.FindDriverCommand" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/service/AdministratorService.java</url>
+          <line>40</line>
+          <properties class="by.tc.web.service.AdministratorService" method="getAllUsers">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/AdministratorDAOImpl.java</url>
+          <line>84</line>
+          <properties class="by.tc.web.dao.impl.AdministratorDAOImpl" method="parseResultSet">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/service/OrderService.java</url>
+          <line>69</line>
+          <properties class="by.tc.web.service.OrderService" method="getOrderByCustomerID">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/OrderDAOImpl.java</url>
+          <line>61</line>
+          <properties class="by.tc.web.dao.impl.OrderDAOImpl" method="getReadOrderByCustomerIDQuery">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/AbstractDAO.java</url>
+          <line>207</line>
+          <properties class="by.tc.web.dao.AbstractDAO" method="getOrderByCustomerID">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/CheckOrderStatusCommand.java</url>
+          <line>16</line>
+          <properties class="by.tc.web.controller.impl.order.CheckOrderStatusCommand" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="167" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/css/ie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/owl.carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="148" column="18" lean-forward="true" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/CustomerBlockingCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="89" lean-forward="false" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/ShowAllOrdersCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="80" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/administrator/orders.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="64" lean-forward="true" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/signup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="18" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/AccountEditCommandImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/ProvideOrdersToDriverCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/ShowAllDriversCommandImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/ShowAllAdminsCommandImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/DriverRegistrationCommandImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/AdminRegistrationCommandImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/RegistrationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/DriverBlockingCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/service/AdministratorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/administrator/AdminDeletingCommnad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/administrator/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="20" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="87" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/administrator/admins.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/administrator/drivers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/DeclineOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/SetOnRouteOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/CustomerDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="59" column="97" lean-forward="false" selection-start-line="59" selection-start-column="97" selection-end-line="59" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/AdministratorDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/DriverDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="55" column="97" lean-forward="false" selection-start-line="55" selection-start-column="97" selection-end-line="55" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/service/ServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/AccountDeleteCommandImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/AuthenticationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="64" column="46" lean-forward="false" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/AcceptingOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/FinishOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/service/DriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/CreateOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/FindDriverCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/impl/OrderDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <element signature="e#2109#2110#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/dao/AbstractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/finishOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/CommandProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="39" column="102" lean-forward="false" selection-start-line="39" selection-start-column="102" selection-end-line="39" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/order/CheckOrderStatusCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/impl/account/CheckActiveCustomerOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/FrontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/web/controller/CommandName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="82" column="70" lean-forward="false" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>InternetTaxi:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>InternetTaxi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.servlet.jsp:jsp-api:2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
