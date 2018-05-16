@@ -15,13 +15,15 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+import static by.tc.web.controller.impl.constant.ControllerConstants.*;
+
 public class AuthenticationCommand implements ControllerCommand {
     @Override
     public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         HttpSession session = request.getSession();
-        String login = request.getParameter("login");
-        String password = request.getParameter("password");
+        String login = request.getParameter(LOGIN);
+        String password = request.getParameter(PASSWORD);
 
 
 
@@ -43,26 +45,26 @@ public class AuthenticationCommand implements ControllerCommand {
             String sessionIdentifier = "";
 
             if(definableClass == Customer.class){
-                sessionIdentifier = "customer";
+                sessionIdentifier = CUSTOMER_ROLE;
             }
             if(definableClass == Driver.class){
-                sessionIdentifier = "driver";
+                sessionIdentifier = DRIVER_ROLE;
             }
             if(definableClass == Administrator.class){
-               sessionIdentifier = "admin";
+               sessionIdentifier = ADMIN_ROLE;
 
 
 
             }
 
         if (user != null) {
-            String lang = (String) session.getAttribute("locale");
+            String lang = (String) session.getAttribute(LOCALE);
             session.invalidate();
             session = request.getSession();
-            session.setAttribute("role",sessionIdentifier);
-            session.setAttribute("user", user);
-            session.setAttribute("locale", lang);
-            response.sendRedirect("/account");
+            session.setAttribute(ROLE,sessionIdentifier);
+            session.setAttribute(USER_ROLE, user);
+            session.setAttribute(LOCALE, lang);
+            response.sendRedirect(ACCOUNT_PAGE);
         } else {
 
             displayError("Incorrect login/password combination", request, response);
@@ -74,7 +76,7 @@ public class AuthenticationCommand implements ControllerCommand {
 
     }
     private void displayError(String error, HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("error", error);
-        req.getRequestDispatcher("/login").forward(req, resp);
+        req.setAttribute(ERROR, error);
+        req.getRequestDispatcher(LOGIN_PAGE).forward(req, resp);
     }
 }

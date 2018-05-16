@@ -34,6 +34,7 @@ input {
 
 p {
     line-height: 1.5em;
+    width: 350px;
 }
 
 .clearfix { *zoom: 1; } /* For IE 6/7 */
@@ -46,7 +47,7 @@ p {
 /* ---------- LOGIN ---------- */
 
 #login {
-    margin: 150px auto;
+    margin: 150px auto 0px auto;
     width: 280px;
 }
 
@@ -77,7 +78,7 @@ p {
     color: #606468;
     margin-bottom: 1em;
     padding: 0 16px;
-    width: 198px;
+    width: 300px;
 }
 
 #login form input:focus {
@@ -108,4 +109,3 @@ p {
 #login > p span {
     padding-left: 5px;
 }
-

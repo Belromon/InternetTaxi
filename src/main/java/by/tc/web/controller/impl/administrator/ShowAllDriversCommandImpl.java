@@ -1,6 +1,7 @@
 package by.tc.web.controller.impl.administrator;
 
 import by.tc.web.controller.ControllerCommand;
+import by.tc.web.controller.impl.constant.ControllerConstants;
 import by.tc.web.entity.Driver;
 import by.tc.web.service.ServiceFactory;
 import by.tc.web.service.UserService;
@@ -21,8 +22,8 @@ public class ShowAllDriversCommandImpl implements ControllerCommand{
         try {
             UserService<Driver> driverService = ServiceFactory.getInstance().getDriverService();
             List<Driver> driverList = driverService.getAllUsers();
-            request.setAttribute("drivers", driverList);
-            request.getRequestDispatcher("/admin/drivers").forward(request,response);
+            request.setAttribute(ControllerConstants.DRIVER_LIST_ATTR, driverList);
+            request.getRequestDispatcher(ControllerConstants.DRIVERS_PAGE).forward(request,response);
         } catch (ServiceException e) {
             e.printStackTrace();
         }

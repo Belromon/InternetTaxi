@@ -61,16 +61,16 @@
 
 
 
-<%--Order status: <c:if test="${not empty message}">--%>
-    <%--<div class="alert alert-success">--%>
-            <%--${message}--%>
-    <%--</div>--%>
-<%--</c:if>--%>
-<div id="message"></div>
+Order status: <c:if test="${not empty message}">
+    <div class="alert alert-success">
+            ${message}
+    </div>
+</c:if>
+
 <br>
-<a onclick="check_status()" >Check order status</a>
+<a href="FrontController?command=CHECK_STATUS" >Check order status</a>
 <br>
-<a>Cancel order</a>
+<a href="FrontController?command=DECLINE_ORDER">Cancel order</a>
 
 
 </body>

@@ -591,7 +591,7 @@ footer {
 }
 
 .socials {
-    margin-right: 96px;
+    margin-right: 396px;
     padding-top: 82px;
     float: right;
     overflow: hidden;
@@ -868,4 +868,16 @@ header h1 a {
     margin-left: -140px;
 }
 
+}
+
+.main-button , .main-button-black {
+    margin: 20px auto;
+}
+
+.main-button-black {
+    background-color: #878787;
+}
+
+.main-page-input-el {
+    margin: auto 10px auto 30px;
 }

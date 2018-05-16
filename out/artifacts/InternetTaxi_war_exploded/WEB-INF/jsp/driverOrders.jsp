@@ -84,7 +84,7 @@
                     <td>
                         <a href="#" id="on_route"
                            onclick="set_on_route_order(${orders.id})">
-                            <span class="glyphicon glyphicon-remove"/>
+                            <span class="glyphicon glyphicon-plane"/>
                         </a>
                     </td>
                     <td>

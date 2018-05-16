@@ -14,19 +14,19 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
 
+import static by.tc.web.controller.impl.constant.ControllerConstants.*;
+
 public class CheckActiveCustomerOrderCommand implements ControllerCommand {
     @Override
     public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, SQLException, ServiceException {
         OrderService orderService = ServiceFactory.getInstance().getOrderService();
-        Customer customer = (Customer) request.getSession().getAttribute("user");
+        Customer customer = (Customer) request.getSession().getAttribute(USER_ROLE);
         try {
             Order order = orderService.getOrderByCustomerID(customer.getId());
-            String status = order.getStatus().name();
-
-            if(status.equals(OrderStatus.FINISHED) || status.equals(OrderStatus.DECLINED)) {
-                response.sendRedirect("/main");
+            if(order == null || order.getStatus().equals(OrderStatus.DECLINED)) {
+                response.sendRedirect(MAIN_PAGE);
             }else {
-                response.sendRedirect("/finish");
+                response.sendRedirect(FINISH_PAGE);
             }
 
 

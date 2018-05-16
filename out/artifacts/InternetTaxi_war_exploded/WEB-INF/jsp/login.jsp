@@ -23,7 +23,7 @@
 
 
 </head>
-<body class="page1" id="top">
+<body id="top">
 <div class="main">
     <header>
         <div class="menu_block ">
@@ -32,9 +32,9 @@
                     <nav class="horizontal-nav full-width horizontalNav-notprocessed">
                         <ul class="sf-menu">
                             <li><a href="/index">${home}</a></li>
-                            <li><a href="index-1.html">${about}</a></li>
-                            <li><a href="index-3.html">${services}</a></li>
-                            <li><a href="index-4.html">${contacts}</a></li>
+                            <li><a href="/about">${about}</a></li>
+                            <li><a href="/services">${services}</a></li>
+                            <li><a href="/contacts">${contacts}</a></li>
                             <li class="current"><a href="/login">${login}</a></li>
 
                         </ul>
@@ -47,53 +47,58 @@
 
     </header>
 
+    <div class="content">
+        <div id="login">
+            <h3 style="font-size: 38px;margin-bottom: 35px;margin-left: 120px;">Log In</h3>
+            <form action="FrontController" method="post">
+                <input type="hidden" name="command" value="AUTHENTICATION">
 
-    <div id="login">
-        <form action="FrontController" method="post">
-            <input type="hidden" name="command" value="AUTHENTICATION">
+                <form action="javascript:void(0);" method="get">
+                    <fieldset class="clearfix">
+                        <p><span class="fontawesome-user"></span><input type="text" name="login" value="${signin}"
+                                                                        onBlur="if(this.value == '') this.value = '${signin}'"
+                                                                        onFocus="if(this.value == '${signin}') this.value = ''"
+                                                                        required></p>
+                        <p><span class="fontawesome-lock"></span><input type="password" name="password"
+                                                                        value="${password}"
+                                                                        onBlur="if(this.value == '') this.value = '${password}'"
+                                                                        onFocus="if(this.value == '${password}') this.value = ''"
+                                                                        required></p>
+                        <input type="submit" value="Отправить" style="margin-left: 75px; margin-top: 10px;">
+                    </fieldset>
+                </form>
+                <p>Нет аккаунта? &nbsp;&nbsp;<a href="/signup">Регистрация</a><span
+                        class="fontawesome-arrow-right"></span>
+                </p>
 
-            <form action="javascript:void(0);" method="get">
-                <fieldset class="clearfix">
-                    <p><span class="fontawesome-user"></span><input type="text"  name="login" value="${signin}"
-                                                                    onBlur="if(this.value == '') this.value = '${signin}'"
-                                                                    onFocus="if(this.value == '${signin}') this.value = ''"
-                                                                    required></p>
-                    <p><span class="fontawesome-lock"></span><input type="password" name="password" value="${password}"
-                                                                    onBlur="if(this.value == '') this.value = '${password}'"
-                                                                    onFocus="if(this.value == '${password}') this.value = ''"
-                                                                    required></p>
-                    <p><input type="submit" value="${submit}"></p>
-                </fieldset>
+                <p>Хотите стать водителем? &nbsp;&nbsp;<a href="/driversignup">Вперед!</a><span
+                        class="fontawesome-arrow-right"></span>
+                </p>
+
+
             </form>
-            <p>Нет аккаунта? &nbsp;&nbsp;<a href="/signup">Регистрация</a><span class="fontawesome-arrow-right"></span>
-            </p>
-
-            <p>Хотите стать водителем? &nbsp;&nbsp;<a href="/driversignup">Вперед!</a><span class="fontawesome-arrow-right"></span>
-            </p>
-
-
-        </form>
+        </div>
     </div>
 </div>
 
-    <footer>
-        <div class="container_12">
-            <div class="grid_12">
-                <div class="f_phone"><span> <%@include file="language.jsp"%></span></div>
-                <div class="socials">
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-google-plus"></a>
-                </div>
-                <div class="copy">
-                    <div class="st1">
-                        <div class="brand">Tour<span class="color1">T</span>axi </div>
-                    </div>
+<footer>
+    <div class="container_12">
+        <div class="grid_12">
+            <div class="f_phone"><span> <%@include file="language.jsp" %></span></div>
+            <div class="socials">
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-google-plus"></a>
+            </div>
+            <div class="copy">
+                <div class="st1">
+                    <div class="brand">Tour<span class="color1">T</span>axi</div>
                 </div>
             </div>
-            <div class="clear"></div>
         </div>
-    </footer>
+        <div class="clear"></div>
+    </div>
+</footer>
 
 </body>
 </html>

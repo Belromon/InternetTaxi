@@ -1,6 +1,7 @@
 package by.tc.web.controller.impl.administrator;
 
 import by.tc.web.controller.ControllerCommand;
+import by.tc.web.controller.impl.constant.ControllerConstants;
 import by.tc.web.entity.Administrator;
 import by.tc.web.service.ServiceFactory;
 import by.tc.web.service.UserService;
@@ -19,8 +20,8 @@ public class ShowAllAdminsCommandImpl implements ControllerCommand {
             UserService<Administrator> administratorService = ServiceFactory.getInstance().getAdministratorService();
             List<Administrator> administratorList = null;
             administratorList = administratorService.getAllUsers();
-            request.setAttribute("admins", administratorList);
-            request.getRequestDispatcher("/admin/admins").forward(request,response);
+            request.setAttribute(ControllerConstants.ADMIN_LIST_ATTR, administratorList);
+            request.getRequestDispatcher(ControllerConstants.ADMINS_PAGE).forward(request,response);
         } catch (ServiceException| IOException e) {
             request.getRequestDispatcher("").forward(request,response);
         }

@@ -15,16 +15,18 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
 
+import static by.tc.web.controller.impl.constant.ControllerConstants.*;
+
 public class DriverRegistrationCommandImpl implements ControllerCommand {
     @Override
     public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, SQLException, ServiceException {
-        String login = request.getParameter("login");
-        String password = request.getParameter("password");
+        String login = request.getParameter(LOGIN);
+        String password = request.getParameter(PASSWORD);
         String hashedPassword = HashGenerator.encryptPassword(password);
-        String name = request.getParameter("name");
-        String surname = request.getParameter("surname");
-        String car_model = request.getParameter("car_model");
-        String car_number = request.getParameter("car_number");
+        String name = request.getParameter(USER_NAME);
+        String surname = request.getParameter(USER_SURNAME);
+        String car_model = request.getParameter(DRIVER_CAR_MODEL);
+        String car_number = request.getParameter(DRIVER_CAR_NUMBER);
         double localtion_x = LocationHandler.getRandomCoordinate();
         double location_y = LocationHandler.getRandomCoordinate();
         Point point = new Point();
@@ -51,7 +53,7 @@ public class DriverRegistrationCommandImpl implements ControllerCommand {
             e.printStackTrace();
         }
 
-        request.getSession().setAttribute("driver",driver);
-        response.sendRedirect("/index");
+        request.getSession().setAttribute(DRIVER_ROLE,driver);
+        response.sendRedirect(INDEX_PAGE);
     }
 }

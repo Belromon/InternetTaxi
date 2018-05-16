@@ -13,12 +13,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+import static by.tc.web.controller.impl.constant.ControllerConstants.*;
+
 public class AccountEditCommandImpl implements ControllerCommand {
     @Override
     public void execute(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        User user = (User) request.getSession().getAttribute("user");
-        String name = request.getParameter("name");
-        String surname = request.getParameter("surname");
+        User user = (User) request.getSession().getAttribute(USER_ROLE);
+        String name = request.getParameter(USER_NAME);
+        String surname = request.getParameter(USER_SURNAME);
         user.setName(name);
         user.setSurname(surname);
 
@@ -41,7 +43,7 @@ public class AccountEditCommandImpl implements ControllerCommand {
 
         try {
             service.update(user);
-            response.sendRedirect("/account");
+            response.sendRedirect(ACCOUNT_PAGE);
         } catch (ServiceException e) {
             e.printStackTrace();
         }

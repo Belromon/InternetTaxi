@@ -1,6 +1,7 @@
 package by.tc.web.controller.impl.order;
 
 import by.tc.web.controller.ControllerCommand;
+import by.tc.web.controller.impl.constant.ControllerConstants;
 import by.tc.web.entity.Customer;
 import by.tc.web.entity.Order;
 import by.tc.web.service.OrderService;
@@ -19,11 +20,19 @@ public class CheckOrderStatusCommand implements ControllerCommand {
         Customer customer = (Customer) request.getSession().getAttribute("user");
         try {
             Order order = orderService.getOrderByCustomerID(customer.getId());
-            String message = order.getStatus().name();
-            response.setContentType("text/plain");
-            response.getWriter().write(message);
+            String message = null;
+            if(order!=null){
+               message = order.getStatus().name();
+            }else{
+                message = ControllerConstants.FINISHED_VALUE;
+            }
 
-        } catch (ServiceException| IOException e) {
+
+            response.setContentType("text/plain");
+            request.setAttribute(ControllerConstants.MESSAGE, message);
+            request.getRequestDispatcher(ControllerConstants.FINISH_PAGE).forward(request,response);
+
+        } catch (ServiceException|IOException e) {
             e.printStackTrace();
         }
 

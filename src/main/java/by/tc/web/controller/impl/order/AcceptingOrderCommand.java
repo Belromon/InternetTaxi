@@ -1,6 +1,7 @@
 package by.tc.web.controller.impl.order;
 
 import by.tc.web.controller.ControllerCommand;
+import by.tc.web.controller.impl.constant.ControllerConstants;
 import by.tc.web.entity.Order;
 import by.tc.web.entity.OrderStatus;
 import by.tc.web.service.OrderService;
@@ -18,16 +19,16 @@ public class AcceptingOrderCommand implements ControllerCommand {
 
     @Override
     public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, SQLException {
-        String idOrder = request.getParameter("id");
+        String idOrder = request.getParameter(ControllerConstants.ID);
         try {
             OrderService orderService = ServiceFactory.getInstance().getOrderService();
             Order order = orderService.readByID(Integer.valueOf(idOrder));
             order.setStatus(OrderStatus.ACCEPTED);
             orderService.update(order);
             HttpSession session = request.getSession();
-            session.setAttribute(idOrder, "idOrder");
+            session.setAttribute(idOrder, ControllerConstants.ID_ORDER);
             response.setContentType("text/plain");
-            response.getWriter().write("true");
+            response.getWriter().write(ControllerConstants.TRUE_VALUE);
         } catch (ServiceException e) {
             e.printStackTrace();
         }

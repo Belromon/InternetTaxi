@@ -1,6 +1,7 @@
 package by.tc.web.controller.impl.order;
 
 import by.tc.web.controller.ControllerCommand;
+import by.tc.web.controller.impl.constant.ControllerConstants;
 import by.tc.web.entity.Driver;
 import by.tc.web.entity.Order;
 import by.tc.web.service.OrderService;
@@ -16,7 +17,7 @@ import java.util.List;
 public class ProvideOrdersToDriverCommand implements ControllerCommand {
     @Override
     public void execute(HttpServletRequest request, HttpServletResponse response) throws  IOException{
-        Driver driver = (Driver) request.getSession().getAttribute("user");
+        Driver driver = (Driver) request.getSession().getAttribute(ControllerConstants.USER_ROLE);
         if (driver != null) {
 
             try {

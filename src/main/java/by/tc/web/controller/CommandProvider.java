@@ -38,6 +38,7 @@ public class CommandProvider {
         commands.put(CommandName.CHECK_STATUS, new CheckOrderStatusCommand());
         commands.put(CommandName.DELETE_ADMIN, new AdminDeletingCommnad());
         commands.put(CommandName.CHECK_ACTIVER_CUSTOMER_ORDER, new CheckActiveCustomerOrderCommand());
+        commands.put(CommandName.DECLINE_ORDER, new DeclineOrderCommand());
 
     }
 

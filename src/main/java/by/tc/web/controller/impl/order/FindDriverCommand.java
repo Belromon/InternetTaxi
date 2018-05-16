@@ -1,6 +1,7 @@
 package by.tc.web.controller.impl.order;
 
 import by.tc.web.controller.ControllerCommand;
+import by.tc.web.controller.impl.constant.ControllerConstants;
 import by.tc.web.entity.Order;
 import by.tc.web.service.OrderService;
 import by.tc.web.service.ServiceFactory;
@@ -14,15 +15,15 @@ public class FindDriverCommand implements ControllerCommand{
 
     @Override
     public void execute(HttpServletRequest request, HttpServletResponse response) throws  IOException {
-        int idDriver = Integer.valueOf(request.getParameter("idDriver"));
-        Order order = (Order)request.getSession().getAttribute("order");
+        int idDriver = Integer.valueOf(request.getParameter(ControllerConstants.ID_DRIVER));
+        Order order = (Order)request.getSession().getAttribute(ControllerConstants.ORDER_ATTR);
         order.setId_driver(idDriver);
         try {
 
             OrderService orderService = ServiceFactory.getInstance().getOrderService();
             orderService.create(order);
 
-            response.sendRedirect("/finish");
+            response.sendRedirect(ControllerConstants.FINISH_PAGE);
         } catch (ServiceException e) {
             response.sendRedirect("/error");
         }
